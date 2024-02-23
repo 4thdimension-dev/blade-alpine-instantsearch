@@ -1,27 +1,28 @@
 <?php
 
+// xxx
 return [
-	
-	/*
+
+    /*
     |--------------------------------------------------------------------------
     | Dependency Bundling
     |--------------------------------------------------------------------------
     |
-    | To keep things as plug-and-play as possible, the following Algolia 
+    | To keep things as plug-and-play as possible, the following Algolia
 	| packages are inlined with the Blade components:
 	|
 	|  - alpinejs
 	|  - algoliasearch/lite
-	|  - instantsearch.js 
+	|  - instantsearch.js
     |
 	| If you are already including these packages from CDN or in your app's
 	| build process, you can disable bundling so that the code isn't loaded
-	| twice in your app. 
+	| twice in your app.
     */
-	'bundle_alpine' => true,
-	'bundle_algolia' => true,
-	
-	/*
+    'bundle_alpine' => true,
+    'bundle_algolia' => true,
+
+    /*
     |--------------------------------------------------------------------------
     | Render Mode
     |--------------------------------------------------------------------------
@@ -31,6 +32,6 @@ return [
 	| over your templates, you may enable "renderless" mode, which will simply
 	| wire up the Alpine state for you and leave the rest of the UI up to you.
     */
-	'renderless' => false,
-	
+    'renderless' => false,
+
 ];
